@@ -1,0 +1,65 @@
+
+	  
+	  
+	  
+	  
+  ----- Users list 
+  
+  
+  dangdd2@gmail.com	  
+  123456aA@
+	
+Node JS
+npm install & npm update
+npm start
+
+
+https://github.com/Azure-Samples/active-directory-b2c-javascript-nodejs-webapi
+https://docs.microsoft.com/en-us/samples/azure-samples/active-directory-b2c-javascript-nodejs-webapi/nodejs-web-api-azure-ad/
+https://github.com/Azure-Samples/active-directory-b2c-javascript-msal-singlepageapp
+
+
+Python
+
+https://github.com/Azure-Samples/ms-identity-python-webapp
+https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-web-app-python?tabs=app-reg-ga
+
+
+http://localhost:5000/#error=redirect_uri_mismatch&error_description=AADB2C90006%3a+The+redirect+URI+%27http%3a%2f%2flocalhost%3a6420%2f%27+provided+in+the+request+is+not+registered+for+the+client+id+%27c291dcba-d18d-420f-95f5-444ad5387f6a%27.%0d%0aCorrelation+ID%3a+ac27b972-7adc-4a76-a611-57326294a902%0d%0aTimestamp%3a+2020-10-15+06%3a53%3a12Z%0d%0a&state=eyJpZCI6IjUzZTI0ODUzLTdjMmItNDA3Yy05ODU4LTcyNmRlYjkwNWRhMCIsInRzIjoxNjAyNzQ0Nzg4LCJtZXRob2QiOiJwb3B1cEludGVyYWN0aW9uIn0%3d
+
+pip install -r requirements.txt
+flask run --host localhost --port 5000
+
+
+
+{
+  "AzureAdB2C": {
+    "Instance": "https://npsstag.b2clogin.com", // REPLACE THIS VALUE
+    "ClientId": "840c8342-5453-4cf1-afd3-a9d664b2dca6", // REPLACE THIS VALUE
+    "CallbackPath": "/signin-oidc",
+    "Domain": "npsstag.onmicrosoft.com", // REPLACE THIS VALUE
+    "SignUpSignInPolicyId": "B2C_1_SignUpIn", // IF YOU NAMED THESE DIFFERENTLY REPLACE
+    "ResetPasswordPolicyId": "B2C_1_ProfileEdit",
+    "EditProfilePolicyId": "B2C_1_ProfileEdit",
+    "ClientSecret": "99.M-rIj.-HHvEp9x6R~.7oGTYrG.QW651" // REPLACE THIS VALUE
+  },
+  //"Wishlist": {
+  //  "readscope": "https://npsstag.onmicrosoft.com/api/wishlist.read", // REPLACE THIS VALUE
+  //  "writescope": "https://npsstag.onmicrosoft.com/api/wishlist.write", // REPLACE THIS VALUE
+  //  "baseAddress": "https://localhost:5002"
+  //},
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*"
+}
+
+
+https://npsstag.b2clogin.com/npsstag.onmicrosoft.com/b2c_1_signupin/oauth2/v2.0/authorize?client_id=840c8342-5453-4cf1-afd3-a9d664b2dca6&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A5000%2FgetAToken&scope=offline_access+openid+profile&state=18584d83-360c-4104-bdee-19ed4c295d07
+
+
+
